@@ -1,7 +1,13 @@
+$base-font-size: 16px;
+
 body {
   background: url("../images/body_background.jpg");
 }
 
 main {
-  font-size: em;
+  background: #fff;
+  width: 964px;
+  min-height: 100px;
+  margin: 0 auto;
+  border-top: 3px solid #868cbf;
 }
