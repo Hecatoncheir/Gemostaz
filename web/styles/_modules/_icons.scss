@@ -1,13 +1,26 @@
 .logo {
-  background: url("../../images/logo.jpg") no-repeat;
-  display: block;
   width: 113px;
   height: 99px;
+
+  background: url("../../images/logo.jpg") no-repeat;
+
+  display: block;
 }
 
 .search-icon {
-  background: url("../../images/icons/search-icon.png") no-repeat;
   width: 12px;
   height: 12px;
+
+  background: url("../../images/icons/search-icon.png") no-repeat;
+
+  display: block;
+}
+
+.slider-arrow-icon {
+  width: 20px;
+  height: 20px;
+
+  background: url("../../images/slider-arrow.png") no-repeat;
+
   display: block;
 }

@@ -10,11 +10,7 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
-html,
-button,
-input,
-select,
-textarea {
+html, button, input, select, textarea {
   color: #222;
 }
 
@@ -48,9 +44,10 @@ img {
  */
 
 fieldset {
-  border: 0;
   margin: 0;
   padding: 0;
+
+  border: 0;
 }
 
 /*
@@ -89,8 +86,9 @@ textarea[contenteditable] {
    they have been set as display: none */
 
 .gifhidden {
-  position: absolute;
   left: -100%;
+
+  position: absolute;
 }
 
 /*
@@ -98,9 +96,10 @@ textarea[contenteditable] {
  */
 
 .ir {
+  border: 0;
+
   background-color: transparent;
   background-repeat: no-repeat;
-  border: 0;
   direction: ltr;
   display: block;
   overflow: hidden;
@@ -126,14 +125,17 @@ textarea[contenteditable] {
  */
 
 .visuallyhidden {
-  border: 0;
-  clip: rect(0 0 0 0);
-  height: 1px;
   margin: -1px;
-  overflow: hidden;
   padding: 0;
-  position: absolute;
+
   width: 1px;
+  height: 1px;
+
+  border: 0;
+
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+  position: absolute;
 }
 
 /*
@@ -141,14 +143,15 @@ textarea[contenteditable] {
  * when navigated to via the keyboard: h5bp.com/p
  */
 
-.visuallyhidden.focusable:active,
-.visuallyhidden.focusable:focus {
-  clip: auto;
-  height: auto;
+.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus {
   margin: 0;
+
+  width: auto;
+  height: auto;
+
+  clip: auto;
   overflow: visible;
   position: static;
-  width: auto;
 }
 
 /*
@@ -164,8 +167,7 @@ textarea[contenteditable] {
  * Used to contain floats: h5bp.com/q
  */
 
-.clearfix::before,
-.clearfix::after {
+.clearfix::before, .clearfix::after {
   content: "";
   display: table;
 }

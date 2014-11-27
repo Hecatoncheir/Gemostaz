@@ -2,15 +2,23 @@
 @import "_components/header";
 @import "_components/search";
 @import "_components/main_navigation";
+@import "_components/content_section";
 
 body {
   background: url("../images/body-background.jpg");
 }
 
 main {
-  background: #fff;
-  width: 964px;
-  min-height: 100px;
   margin: 0 auto;
+
+  width: 964px;
+
+  background: #fff;
+
   border-top: 3px solid #868cbf;
+  min-height: 100px;
+}
+
+main > footer {
+  clear: both;
 }
