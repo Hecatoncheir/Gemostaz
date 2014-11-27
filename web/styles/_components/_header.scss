@@ -1,0 +1,86 @@
+$base-font-size: 16px;
+
+.logo {
+  float: left;
+  margin-left: 22px;
+}
+
+.clinic-name {
+  float: left;
+  width: 200px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ed5259;
+  font-size: em(18px);
+  font-family: 'Medium';
+  margin-top: 20px;
+}
+
+.license {
+  color: #01518c;
+  font-size: em(16px, 18px);
+
+  span {
+    font-size: em(14px);
+    font-family: 'Thin';
+  }
+}
+
+.help-block {
+  float: right;
+  margin-right: 20px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.help-client {
+  width: 193px;
+  float: right;
+
+//Phone
+  .phone {
+    color: #01518c;
+    text-transform: uppercase;
+    font-size: em(16px);
+    font-family: 'Bold_Italic';
+
+    span {
+      color: #e8232c;
+      margin-right: 5px;
+    }
+  }
+
+//Search
+  .search {
+    margin-top: 17px;
+  }
+
+}
+
+.help-links {
+  float: right;
+  display: block;
+  width: 100px;
+  margin-right: 30px;
+
+  a {
+    float: right;
+    clear: right;
+    font-family: 'Medium_Italic';
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+    color: #e8232c;
+  }
+
+  a:last-child{
+    margin-top: 20px;
+  }
+
+}
+
+.main-navigation {
+  clear: both;
+}

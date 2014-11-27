@@ -1,0 +1,38 @@
+.main-navigation {
+  background: url("../../images/main-nav-bg.png") repeat-x;
+  height: 50 - 14 * 1px;
+  width: 100%;
+  display: block;
+  border-radius: 3px;
+  padding-top: 14px;
+
+  a {
+    float: left;
+    display: inline-block;
+    color: #fff;
+    margin: 0 4px;
+    font-family: 'Medium';
+    font-size: em(16px);
+    text-decoration: none;
+    letter-spacing: 0.6px;
+  }
+
+  a:after {
+    content: '';
+    width: 2px;
+    float: left;
+    height: 20px;
+    margin-right: 8px;
+    background: url("../../images/main-nav-separator.png") no-repeat;
+  }
+
+  a:nth-child(9) + a:after {
+    display: none;
+    float: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+}

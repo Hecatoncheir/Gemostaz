@@ -1,0 +1,22 @@
+.search {
+  position: relative;
+
+  input {
+    width: 90%;
+    outline: none;
+    border: 1px solid #aeaeae;
+    border-radius: 16px;
+    padding: 5px 10px;
+  }
+
+  input:focus {
+    color: #aeaeae;
+  }
+
+  .search-icon {
+    position: absolute;
+    right: 6px;
+    top: 8px;
+  }
+
+}

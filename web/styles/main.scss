@@ -9,17 +9,13 @@
  * Web Starter Kit team.
  *
  */
-@import '_h5bp';
+@import '_modules/h5bp';
+@import "_modules/function";
+@import "_modules/fonts";
+//@import "_modules/pesticide";
+
 @import 'main_page';
-@import "function";
 
-//@import '_roboto';
-
-/*
- * Visual Style Guide styles
- * Remove if you prefer to use a CSS library, like Bootstrap
- */
-//@import 'components/components';
 
 html,
 body {

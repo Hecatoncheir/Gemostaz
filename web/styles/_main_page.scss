@@ -1,7 +1,10 @@
-$base-font-size: 16px;
+@import "_modules/icons";
+@import "_components/header";
+@import "_components/search";
+@import "_components/main_navigation";
 
 body {
-  background: url("../images/body_background.jpg");
+  background: url("../images/body-background.jpg");
 }
 
 main {
