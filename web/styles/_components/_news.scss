@@ -1,3 +1,19 @@
+.article-link {
+  font-family: 'Medium';
+
+  color: #828ac8;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration: none;
+  text-shadow: 0 2px 0 #fff;
+  text-transform: uppercase;
+}
+
+.article-link:hover {
+  color: #e04251;
+}
+
 .news {
   article {
     padding: 0 6px;
@@ -5,10 +21,10 @@
     width: 206px;
 
     background-color: #fff;
-    background-image: -webkit-linear-gradient(bottom, #dfebf7 0%, #f3f8fd 100%);
-    background-image:         linear-gradient(to top, #dfebf7 0%, #f3f8fd 100%);
-    background-image:      -o-linear-gradient(bottom, #dfebf7 0%, #f3f8fd 100%);
     background-image:    -moz-linear-gradient(bottom, #dfebf7 0%, #f3f8fd 100%);
+    background-image:      -o-linear-gradient(bottom, #dfebf7 0%, #f3f8fd 100%);
+    background-image:         linear-gradient(to top, #dfebf7 0%, #f3f8fd 100%);
+    background-image: -webkit-linear-gradient(bottom, #dfebf7 0%, #f3f8fd 100%);
     -webkit-border-radius: 4px;
        -moz-border-radius: 4px;
             border-radius: 4px;
@@ -35,13 +51,12 @@
   }
 
   h3 {
-    font-family: 'Medium';
+    @extend .article-link;
+    a {
+      @extend .article-link;
 
-    color: #828ac8;
-    font-size: 14px;
-    font-weight: 500;
-    text-shadow: 0 2px 0 #fff;
-    text-transform: uppercase;
+      text-decoration: none;
+    }
   }
 
   footer {
