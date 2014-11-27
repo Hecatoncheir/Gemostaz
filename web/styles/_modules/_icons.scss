@@ -26,18 +26,22 @@
 }
 
 .cardio-icon {
-  background: url("../../images/icons/cardio-icon.png") no-repeat;
-  display: block;
   width: 22px;
   height: 22px;
+
+  background: url("../../images/icons/cardio-icon.png") no-repeat;
+
+  display: block;
 }
 
 .gen-icon {
   @extend .cardio-icon;
+
   background: url("../../images/icons/gen-icon.png") no-repeat;
 }
 
 .crop-icon {
   @extend .cardio-icon;
+
   background: url("../../images/icons/crop-icon.png") no-repeat;
 }

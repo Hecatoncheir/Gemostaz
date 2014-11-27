@@ -1,23 +1,28 @@
 .doctors {
   .doctor {
-    width: 145px;
-    float: left;
-    display: block;
-    position: relative;
     margin-top: 10px;
     margin-right: 30px;
 
+    width: 145px;
+
+    display: block;
+    float: left;
+    position: relative;
+
     i {
-      position: absolute;
       top: -10px;
       left: 0;
+
+      position: absolute;
     }
 
     .figure {
-      border-radius: 50%;
-      height: 138px;
       width: 138px;
+      height: 138px;
+
       border: 2px solid #4953a0;
+
+      border-radius: 50%;
       overflow: hidden;
       position: relative;
 
@@ -28,39 +33,48 @@
     }
 
     .inner-border {
-      content: '';
-      display: block;
-      background: url("../../images/doctor-img.png") no-repeat;
-      position: absolute;
-      left: 1px;
       top: 1px;
-      z-index: 3;
+      left: 1px;
+
       width: 100%;
       height: 138px;
+
+      background: url("../../images/doctor-img.png") no-repeat;
+
+      content: '';
+      display: block;
+      position: absolute;
+      z-index: 3;
     }
 
     span {
-      color: #e8232c;
-      position: absolute;
-      z-index: 5;
-      bottom: 8px;
       left: 18px;
-      font-size: em(10px);
+      bottom: 8px;
+
       width: 100px;
-      text-align: center;
+
       font-family: 'Medium';
+
+      color: #e8232c;
+      font-size: em(10px);
+      position: absolute;
+      text-align: center;
+      z-index: 5;
     }
 
     .description {
+      padding: 5px 7px;
+
       margin-top: 20px;
+
+      font-family: 'Medium';
+
       background: #f3f3f3;
+
+      border-radius: 6px;
       color: #4953a0;
       font-size: em(12px);
-      padding: 5px 7px;
-      border-radius: 6px;
-      font-family: 'Medium';
     }
-
   }
 
   .doctor:last-child {
