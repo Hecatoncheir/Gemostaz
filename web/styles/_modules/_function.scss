@@ -1,3 +1,7 @@
 @function em($px, $base: $base-font-size) {
   @return ($px / $base) * 1em;
 }
+
+@function percent($px, $base){
+  @return ($px / $base) * 100%;
+}

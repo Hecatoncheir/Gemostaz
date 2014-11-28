@@ -1,0 +1,62 @@
+.stories-and-QA {
+  clear: both;
+  padding-top: 20px;
+
+//Клиентские случаи
+  .stories {
+    width: percent(470,960);
+    display: block;
+    float: left;
+
+    header {
+      border-bottom: 2px solid #38b349;
+      color: #38b349;
+      font-family:'Verdana';
+      margin-bottom: 6px;
+
+      span {text-transform: uppercase}
+    }
+
+    article {
+      background: #F0F0F0;
+      border-radius: 3px;
+      padding: 3px 5px;
+      margin-bottom: 4px;
+    }
+
+    article:hover {
+      background: #fff;
+    }
+
+
+    a {
+      color: #10365d;
+      font-size: em(12px);
+      text-decoration: none;
+      line-height: 128%;
+      display: inline-block;
+    }
+  }
+
+
+//Популярные вопросы
+  .questions {
+    @extend .stories;
+    float: right;
+    margin-right: 10px;
+
+    header {
+      border-bottom-color: #49529f;
+      color: #49529f;
+    }
+
+    article {
+      background: none;
+      a:hover {
+        text-decoration: underline;
+        color: #E42241;
+      }
+    }
+  }
+
+}
