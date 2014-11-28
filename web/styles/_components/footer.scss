@@ -1,0 +1,48 @@
+.main-footer {
+  clear: both;
+  padding: 10px 10px 0 10px !important;
+  display: block;
+  background: #f3f3f3;
+
+  .feedback-menu {
+    background: #fff;
+    margin: 0 -9px;
+    margin-top: 10px;
+    margin-bottom: -10px;
+    padding: 5px 0;
+
+    a {
+      text-transform: uppercase;
+      text-decoration: none;
+      color: #48B34F;
+      display: inline-block;
+      float: left;
+      border-right: 1px solid #404492;
+      width: 290px;
+      text-align: center;
+    }
+
+    a:last-child{
+      border-right: 0;
+      width: 39%;
+    }
+
+    a:hover {
+      color: #E42241;
+    }
+  }
+
+  .main-navigation {
+    background: none;
+    text-align: center;
+    margin-bottom: 30px;
+    a {
+      color: #404492;
+      margin-right: 12px;
+    }
+    a:after {
+      display: none;
+    }
+  }
+
+}
