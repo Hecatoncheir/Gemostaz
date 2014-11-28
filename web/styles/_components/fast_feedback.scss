@@ -1,3 +1,32 @@
 .fast-feedback {
+  float: right;
+  display: block;
+  color: #404492;
+  font-family: 'Verdana';
+  font-size: 12px;
+  margin-top: 10px;
 
+  input {
+    background: none;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #404492;
+    position: relative;
+    top: -4px;
+    float: right;
+  }
+
+  label {
+    clear: both;
+    float: left;
+    text-align: right;
+    width: 300px;
+  }
+
+  span {
+    float: right;
+    display: inline-block;
+    text-align: right;
+    color: #404492;
+  }
 }
